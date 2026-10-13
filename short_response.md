@@ -33,6 +33,7 @@ The program finds the parts of the name with this code:
 space = name.find(" ")
 first = name[:space]
 last = name[space + 1:]
+username = first[0] + last
 ```
 
 ### Prompt 1
