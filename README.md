@@ -10,13 +10,14 @@
 These are your own words. Do not use AI to draft or rewrite your responses —
 that holds in every mode, including implementer mode. You may use it to check
 grammar and spelling on writing you have already done, and you may use it
-before you start to quiz you until you can explain both ideas without notes.
-Paste this if you want that kind of help:
+before you start to quiz you until you can explain cleaning, validating, and
+parsing input without notes. Paste this if you want that kind of help:
 
-> You are acting as a tutor. Quiz me on Python string immutability and on what
-> input() returns, until I can explain both without looking anything up. Tell
-> me when my reasoning is wrong or imprecise. Do not write or rewrite any part
-> of my response for me.
+> You are acting as a tutor. Quiz me on what it means to clean, validate, and
+> parse user input in Python, and on the string tools used at each step, until
+> I can explain all three without looking anything up. Tell me when my
+> reasoning is wrong or imprecise. Do not write or rewrite any part of my
+> response for me.
 
 A response you did not write is worth nothing to you in an interview, which is
 where this writing is really aimed.
