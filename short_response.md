@@ -15,27 +15,33 @@ to check how it is rendered before submitting.
 
 ## Question 1
 
+A sign-up program asks for the user's full name, then prints a welcome message and a username. Suppose the user types
+
+```
+    ada LOVELACE
+```
+
+with spaces before and after the name. The program should print:
+
+```
+Welcome, Ada! Your username is alovelace
+```
+
+The program finds the parts of the name with this code:
+
+```py
+space = name.find(" ")
+first = name[:space]
+last = name[space + 1:]
+```
+
 ### Prompt 1
 
-Write a short lesson explaining two things that surprise almost everyone
-learning Python. Cover all four:
+In your own words, explain what it means to **clean**, **validate**, and **parse** input. For each step:
 
-- What it means that a string is **immutable**, and what Python does when you
-  try to change one in place.
-- Why this prints `ada` and not `ADA`, in terms of what `upper()` returns:
-
-  ```python
-  name = "ada"
-  name.upper()
-  print(name)
-  ```
-
-- Why `input()` hands back a string even when the person typed `25`, and what
-  goes wrong if you use it as a number without converting it.
-- One bug a new programmer would hit because of each, and how they would
-  recognize it from the error message.
-
-Use these terms correctly: **immutable**, **method**, and **type conversion**.
+- Say what this program should do at that step, and name the string tools it would use.
+- For **cleaning** and **validating**, predict what the program would print if it skipped that step, and explain why.
+- For **parsing**, explain why the program could not build the username without it.
 
 ### Response 1
 

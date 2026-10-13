@@ -1,13 +1,8 @@
 # Explaining Strings and Input
 
-Teach a brand new programmer why a string never changes, and why everything a
-person types arrives as text.
-
 - [AI Use on This Assignment](#ai-use-on-this-assignment)
 - [Setup](#setup)
 - [Instructions](#instructions)
-- [Short Response Questions](#short-response-questions)
-  - [Prompt 1](#prompt-1)
 - [Submitting](#submitting)
 
 ## AI Use on This Assignment
@@ -28,7 +23,7 @@ where this writing is really aimed.
 
 ## Setup
 
-Work in `development/mod-1`. Make a draft branch before you start.
+Clone this repo into `development/mod-1` and `cd` into it. Make a draft branch before you start.
 
 ```sh
 git checkout -b draft
@@ -50,41 +45,6 @@ qualities. Your instructor will give you feedback on each one:
 - [ ] Uses markdown to enhance readability (preview in VS Code with
       Command/Control + Shift + V)
 - [ ] Is easy to comprehend
-
-## Short Response Questions
-
-### Prompt 1
-
-Two things surprise almost everyone learning Python, and both show up the
-first time you write a program that talks to a person. Write a short lesson
-explaining them.
-
-Your lesson should have four parts:
-
-- Explain what it means that a string is **immutable**, and show what Python
-  does when you try to change one in place. A code block with the error in it
-  will do more work than a paragraph.
-- Explain why this prints `ada` and not `ADA`, in terms of what `upper()`
-  actually returns:
-
-  ```python
-  name = "ada"
-  name.upper()
-  print(name)
-  ```
-
-- Explain why `input()` hands back a string even when the person typed `25`,
-  and what goes wrong if you use that value as a number without converting it.
-- Describe one bug you would expect a new programmer to hit because of each of
-  these, and how they would recognize it from the error message.
-
-Use these terms correctly: **immutable**, **method**, and **type conversion**.
-
-Defining them is the assignment, so we are not defining them here.
-
-That last part is the one that matters. An explanation that only says what is
-true is easy to agree with and easy to forget. One that names the mistake it
-prevents is the one somebody remembers at 11pm.
 
 ## Submitting
 
